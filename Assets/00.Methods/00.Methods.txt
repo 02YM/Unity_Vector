@@ -1,0 +1,31 @@
+# Vector
+## Public Methods
+- Equals : 주어진 벡터가 같은 경우 True를 반환합니다.
+- Set : 기존 Vector3의 x,y,z 구성요소를 설정합니다.
+- ToString : 벡터의 서식을 문자열로 반환합니다.
+
+## Static Methods
+- Angle : 두 벡터 사이의 각도를 단위로 반환합니다.
+- ClampMagnitude : 벡터의 크기를 제한 합니다.
+- Cross : 두 벡터의 외적(3D에서 수직 벡터 구할 때)
+- Distance : 두 벡터 사이의 거리 반환
+- Dot : 두 벡터의 내적
+- Lerp : 두 벡터 사이를 선형 보간합니다.
+- LerpUnclamped : Lerp와 같지만 범위를 초과할 수 있음
+- Magnitude: 벡터의 길이를 반환 속도하는
+- Max : 벡터의 각 축(x,y,z) 최대 값
+- Min : 벡터의 각 축(x,y,z) 최소 값
+- MoveTowards : 현제 벡터를 목표 벡터로 일정 거리 만큼 이동
+- Normarlize : 벡터를 정규화(크기를 1로)
+- OrthoNormarlize : 직교 정규화(여러 벡터 간)
+- Project : 한 벡터를 다른 벡터에 정사영
+- ProjectOnPlane : 벡터를 평면에 정사영
+- Reflect : 벡터를 기준 평면에 대해 반사
+- RotateTowards : 한 벡터를 다른 벡터 방향으로 부드럽게 회전
+- Scale : 벡터 간 성뷴별 곱
+- Set : 벡터의 x,y,z값을 한번에 설정하는 메서드.
+- SignedAngle : 두 벡터 사이의 부호 있는 각도 계산
+- Slerp : 구면 선형 보간(회전 방향을 부드럽게 연결할 떄 사용합니다.)
+- SlerpUnclamped : 제한 없는 구면 선형 보간
+- SmoothDamp : 현제 벡터를 목표로 부드럽게 감쇠하며 이동
+- SqrMagnitude : 벡터의 제곱된 크기를 반환

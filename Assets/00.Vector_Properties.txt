@@ -1,0 +1,23 @@
+# Vector
+## Static Properties
+- up : Vector3(0,1,0)
+- down : Vector3(0,-1,0)
+- right : Veoctr3(1,0,0)
+- left : Vector3(-1,0,0)
+- back : Vector3(0,0,-1)
+- forward : Vector3(0,0,1)
+
+- one : Vector3(1,1,1)
+- zero : Vector3(0,0,0)
+
+- positiveInfinity : Vector3(float.PositiveInfinity, '', '')
+- negativeInfinity : Vector3(float.NegativeInfinity, '', '')
+
+## Properties
+- magnitude : 벡터의 길이를 반환합니다(읽기 전용)
+- normalized : 현재 벡터를 기반으로 정규화된 벡터를 반환합니다.
+- sqrMagnitude : 벡터의 길이를 제곱을 반환합니다.(읽기 전용)
+- this[int] : [0], [1], [2] => x,y,z 구성 요소에 엑세스합니다.
+- X : Vector3(X,0,0)
+- Y : Vector3(0,Y,0)
+- Z : Vector3(0,0,Z)
