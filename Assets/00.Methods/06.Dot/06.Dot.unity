@@ -225,28 +225,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 232699716}
-  - component: {fileID: 232699715}
+  - component: {fileID: 232699717}
   m_Layer: 0
-  m_Name: Vector_Angle
+  m_Name: Vector_Dot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &232699715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 232699714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 393283a7ade7f614f95623242afd6740, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Top: {fileID: 511466770}
-  Bottom: {fileID: 1725989417}
 --- !u!4 &232699716
 Transform:
   m_ObjectHideFlags: 0
@@ -262,6 +248,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &232699717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232699714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ebfc04d50df78143a7abf4f10339157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Top: {fileID: 511466770}
+  Down: {fileID: 1725989417}
 --- !u!1 &262986588
 GameObject:
   m_ObjectHideFlags: 0
